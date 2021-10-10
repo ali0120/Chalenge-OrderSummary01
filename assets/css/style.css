@@ -5,7 +5,7 @@
 }
 
 img {
-    width: 100%;
+    min-width: 100%;
 }
 
 p {
@@ -115,6 +115,8 @@ body {
 @media (max-width:450px) {
     .background-wave {
         background: url(../images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: top;
     }
     .card {
         width: 320px;
