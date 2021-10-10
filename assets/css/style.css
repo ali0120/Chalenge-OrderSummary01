@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 16px;
+}
+
+body {
+    background-color: #e0e8ff;
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.background-wave {
+    background: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.card {
+    width: 450px;
+    margin: 0 auto;
+    background-color: hsl(225, 100%, 98%);
+    box-shadow: rgb(114, 128, 167) 0px 5px 30px 0px;
+    border-radius: 20px;
+    transform: translateY(20%);
+}
+
+.card .header--hero img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.info {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.info .info__title h1 {
+    font-size: 32px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.info .info__description {
+    margin-top: 10px !important;
+    color: #7280a7;
+    width: 88%;
+    margin: 0 auto;
+}
+
+.plan--container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.plan--container .plan--info {
+    color: #1f2f56;
+    font-weight: 900;
+}
+
+.plan--container .price p {
+    color: hsl(224, 23%, 55%);
+}
+
+.plan--container .button--action {
+    margin-left: 24%;
+    font-weight: 900;
+}
+
+.card .button--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 0;
+}
+
+.card .button--container button {
+    font-size: 16px;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+}
+
+.card .button--container button:nth-child(1) {
+    display: block;
+    width: 80%;
+    height: 50px;
+    background: hsl(245, 75%, 52%);
+    box-shadow: 0px 15px 30px hsl(245deg 75% 85%);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.card .button--container button:last-child {
+    background: transparent;
+    color: #7280a7;
+}
+
+@media (max-width:375px) {
+    .background-wave {
+        background: url(../images/pattern-background-mobile.svg);
+    }
+    .card {
+        width: 320px;
+        transform: translateY(10%);
+    }
+}
