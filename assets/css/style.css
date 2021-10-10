@@ -53,8 +53,9 @@ body {
 .info .info__description {
     margin-top: 10px !important;
     color: #7280a7;
-    width: 88%;
+    padding: 0 15%;
     margin: 0 auto;
+    text-transform: lowercase;
 }
 
 .plan--container {
