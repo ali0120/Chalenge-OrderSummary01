@@ -124,7 +124,7 @@ body {
         transform: translateY(10%);
     }
     .plan--container {
-        gap: 0;
+        gap: 3px;
     }
     .plan--container .icon img {
         width: 40px;
