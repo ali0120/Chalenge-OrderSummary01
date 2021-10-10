@@ -112,7 +112,7 @@ body {
     color: #7280a7;
 }
 
-@media (max-width:375px) {
+@media (max-width:450px) {
     .background-wave {
         background: url(../images/pattern-background-mobile.svg);
     }
